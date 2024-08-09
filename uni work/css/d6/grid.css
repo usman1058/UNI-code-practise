@@ -1,0 +1,42 @@
+.container{
+    display: grid;
+    background-color: black;
+    height: 500px;
+    row-gap: 10px;
+    column-gap: 20px;
+    grid-template-columns: 100px auto 200px ;
+    /* column=width */
+     grid-template-rows: 100px 60px ;
+    /* row=height */
+    row-gap: 19px;
+    border: 10px rgb(141, 141, 141) solid;
+    
+
+}
+.item1{
+    background-color:rgb(17, 237, 237) ;
+    transition: 2s all ease-in-out;
+}
+.item1:hover{
+    background-color: bisque;
+    transform: scale(0.8); 
+}
+.item2{
+    background-color:rgb(225, 128, 0) ;
+}
+.item3{
+    background-color:rgb(4, 4, 95) ;
+   
+}
+.item4{
+     grid-column-start:1 ;
+    grid-column-end:3 ;/*it can be similarly row it is used based on lines and columns */
+    background-color:rgba(179, 37, 37, 0.842) ;
+   grid-row: 2/span 3; /* this is a short hand property */
+   /* grid-area: ; shorthand col start\ row start\ col end\ row end */
+}
+/* .container div:nth-of-type( odd){
+    background-color: rgba(71, 141, 70, 0.625);
+} */
+/*values can be odd or even
+ or 2n 3n and 5n  */

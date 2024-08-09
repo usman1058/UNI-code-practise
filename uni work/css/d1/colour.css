@@ -1,0 +1,22 @@
+p{
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px ;
+    text-decoration-color: rgb(44, 100, 81);
+    text-decoration-style:  wavy;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 24px;
+    letter-spacing: 3px;
+    word-spacing: 2cap;
+text-indent: 4cqmax;
+text-shadow: 2cap;
+white-space: pre;
+white-space: wrap;
+
+}
+h1{
+    text-shadow: 10px 10px 3px rgb(138, 43, 43),
+                15px 14px 2px rgb(29, 185, 94), 
+                20px 17px 3px #000;
+            font-family: fantasy;
+}

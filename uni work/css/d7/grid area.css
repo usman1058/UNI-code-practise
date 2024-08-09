@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+.container{
+    display: grid;
+    gap: 10px;
+    background-color: black;
+    height: 500px;
+    grid-template-areas: 
+    "h h h h"
+    "m a a r"
+    "m f f f"
+    ;
+
+}
+.header{grid-area:h ;
+    background-color: red;
+}
+.menu{grid-area:m ;
+    background-color:bisque ; 
+}
+.main{grid-area:a ;
+    background-color: violet; 
+}
+.right{grid-area: r;
+     background-color: salmon;
+    }
+.footer{grid-area: f;
+    background-color:yellow ; }

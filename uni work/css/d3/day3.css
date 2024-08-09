@@ -1,0 +1,19 @@
+/* universal selectoe */
+*{
+    color: #bd1616;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+/* id selector */
+#a1{
+   color: rgb(216, 162, 91);}
+/* class selector */
+   .a2{
+    color: rgb(10, 44, 137);
+    border: rgb(72, 52, 112) 10px dotted;
+   }
+   .d1{
+    background-color:rgb(123, 159, 123);
+     height: 100px; 
+    width: 900px;
+    border-radius: 100px 1px 1px 100px;
+   }

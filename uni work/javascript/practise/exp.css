@@ -1,0 +1,27 @@
+.f1{
+    background: radial-gradient(
+		35.67% 267.37% at 50% 50%,
+		#696968 0%,
+		#1d1d1b 100%
+	);;
+    /* background-color: rgb(107, 107, 132); */
+    height: 50px;
+    width: 500px;
+    border-radius: 60px;
+display: flex;
+list-style: none;
+}
+#in1{
+    list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #fff;
+	color: #000;
+	padding-left: 4em;
+	height: 5em;
+	border-radius: 100px;
+	flex-grow: 1;
+	font-size: 0.7em;
+	color: #575756;
+}
